@@ -1,0 +1,50 @@
+---
+title: "LiDAR"
+subtitle: "Light Detection and Ranging"
+author: "Aida Kazlauskaite"
+institute: "UCL"
+date: "2024/02/01 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r include=FALSE}
+library(RefManageR)
+library(knitcitations)
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "authoryear",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = FALSE,
+           no.print.fields=c("doi", "url", "urldate", "issn"))
+myBib <- ReadBib("./references.bib", check = FALSE)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#063d76",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+# Summary: LiDAR
+
+.pull-left[* Remote sensing technology that uses laser pulses to measure distances to objects.
+* Emits laser beams and measures the time it takes for the light to bounce back, creating detailed 3D maps of the surrounding environment.
+* Commonly used for terrain mapping, vegetation analysis, urban planning, autonomous vehicles, and archaeological surveys.]
+
+```{r echo=FALSE, out.width= "50%", fig.show='hold', fig.align= 'right', fig.cap= "A lidar map of Lynnhaven Inlet, Virginia (Source: NOAA, 2023)"}
+
+knitr::include_graphics('lidar-lynnhaven.jpg')
+```
+---
