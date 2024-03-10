@@ -1,7 +1,7 @@
 ---
 title: "LiDAR"
-subtitle: "(Light Detection and Ranging)"
-author: "Aida Kazklauskaite"
+subtitle: "Light Detection and Ranging"
+author: "Aida Kazlauskaite"
 institute: "UCL"
 date: "2024/02/01 (updated: `r Sys.Date()`)"
 output:
@@ -36,3 +36,15 @@ style_mono_accent(
   code_font_google   = google_font("Fira Mono")
 )
 ```
+
+# Summary: LiDAR
+
+.pull-left[* Remote sensing technology that uses laser pulses to measure distances to objects.
+* Emits laser beams and measures the time it takes for the light to bounce back, creating detailed 3D maps of the surrounding environment.
+* Commonly used for terrain mapping, vegetation analysis, urban planning, autonomous vehicles, and archaeological surveys.]
+
+```{r echo=FALSE, out.width= "50%", fig.show='hold', fig.align= 'right', fig.cap= "A lidar map of Lynnhaven Inlet, Virginia (Source: NOAA, 2023)"}
+
+knitr::include_graphics('lidar-lynnhaven.jpg')
+```
+---
