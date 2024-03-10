@@ -39,9 +39,9 @@ style_mono_accent(
 
 # Summary 1: LiDAR
 
-.pull-left[* Remote sensing technology that uses laser pulses to measure distances to objects.
+.pull-left[* Remote sensing technology that uses laser pulses to measure distances to objects i.e., active sensor.
 * Emits laser beams and measures the time it takes for the light to bounce back, creating detailed 3D maps of the surrounding environment.
-* Commonly used for terrain mapping, vegetation analysis, urban planning, autonomous vehicles, and archaeological surveys.]
+* Commonly used for terrain mapping, vegetation analysis, urban planning, autonomous vehicles, archaeological surveys, forestry management, military and defence, aviation, mining, quarrying, to name a few .]
 
 ```{r echo=FALSE, out.width= "50%", fig.show='hold', fig.align= 'right', fig.cap= "A lidar map of Lynnhaven Inlet, Virginia (Source: NOAA, 2023)"}
 
@@ -50,6 +50,18 @@ knitr::include_graphics('lidar-lynnhaven.jpg')
 ---
 
 # Summary 2: LiDAR
+
+A quick journey back in time:
+* Archimedes' use of mirrors during the Siege of Syracuse in 212 BC, reflecting sunlight to ignite enemy ships, foreshadowed Lidar's foundation, known as "light amplification by stimulated emission of radiation" (LASER).
+* The 1960 invention of the laser revolutionised rangefinding, enabling Hughes Aircraft Company researchers in 1962 to pioneer Lidar's first distance-measuring system. Utilising a ruby laser, this system emitted light pulses reflected back from target objects, facilitating precise distance calculations based on pulse travel time.  `r Citep(myBib, "pointscanWhatLiDARHistory2023")`
+
+```{r echo=FALSE, out.width= "40%", fig.show='hold', fig.align= 'center', fig.cap= "Artistic depiction of Archimedes' mirror employed in burning Roman ships. Painting by Giulio Parigi, c. 1599. Image: public domain"}
+
+knitr::include_graphics('archimedes.jpg')
+```
+---
+
+# Summary 3: LiDAR
 
 * A lidar device primarily comprises a laser, a scanner, and a dedicated GPS receiver. 
 * Aircraft and helicopters serve as the primary platforms for gathering lidar data across extensive regions.
@@ -64,3 +76,40 @@ knitr::include_graphics('airplane.png')
 ```
 ---
 
+# Applications 1: Terrain mapping
+
+* Lidar provides detailed topographic data by measuring surface elevation with high precision.
+* It enables the creation of digital elevation models (DEMs) and digital terrain models (DTMs) for terrain mapping.
+* The technology penetrates vegetation, allowing for accurate mapping of terrain beneath forest canopies.
+* Lidar data aids in identifying landforms, analysing slope characteristics, and assessing terrain suitability for various purposes.
+
+---
+
+# Applications 2: Vegatation analysis
+
+* Lidar captures detailed information about vegetation structure, including canopy height, density, and distribution.
+* It enables the creation of vegetation maps and biomass estimation, crucial for ecological studies and forest management.
+* The technology facilitates monitoring of forest health, detecting changes in vegetation cover, and assessing habitat quality.
+* Lidar data aids in identifying tree species, analyzing canopy gaps, and assessing the impact of disturbances on vegetation.
+
+---
+
+# Applications 3: Urban planning
+
+* Lidar supports urban planning by providing precise 3D mapping of urban environments, including buildings, roads, and infrastructure.
+* It enables the creation of detailed digital surface models (DSMs) and digital terrain models (DTMs) for urban landscape analysis.
+* The technology aids in land use classification, transportation network planning, and infrastructure maintenance.
+* Lidar data facilitates flood risk assessment, urban growth monitoring, and green space planning in urban areas.
+
+---
+
+# Applications 4: Archeological surveys
+
+* Lidar aids archaeological surveys by providing detailed topographic data of landscapes, uncovering hidden features.
+* It allows for the detection of archaeological sites, ancient structures, and artifacts that may be obscured by vegetation or terrain.
+* The technology accelerates the mapping process, covering large areas efficiently and identifying potential excavation sites.
+* Lidar assists in reconstructing ancient landscapes, understanding settlement patterns, and planning targeted excavations for further study.
+
+---
+
+# Reflections
