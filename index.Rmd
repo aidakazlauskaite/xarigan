@@ -1,6 +1,6 @@
 ---
 title: "LiDAR"
-subtitle: "Light Detection and Ranging"
+subtitle: "(Light Detection and Ranging)"
 author: "Aida Kazlauskaite"
 institute: "UCL"
 date: "2024/02/01 (updated: `r Sys.Date()`)"
