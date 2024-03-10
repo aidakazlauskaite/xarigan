@@ -37,7 +37,7 @@ style_mono_accent(
 )
 ```
 
-# Summary: LiDAR
+# Summary 1: LiDAR
 
 .pull-left[* Remote sensing technology that uses laser pulses to measure distances to objects.
 * Emits laser beams and measures the time it takes for the light to bounce back, creating detailed 3D maps of the surrounding environment.
@@ -48,3 +48,19 @@ style_mono_accent(
 knitr::include_graphics('lidar-lynnhaven.jpg')
 ```
 ---
+
+# Summary 2: LiDAR
+
+* A lidar device primarily comprises a laser, a scanner, and a dedicated GPS receiver. 
+* Aircraft and helicopters serve as the primary platforms for gathering lidar data across extensive regions.
+* Lidar technology encompasses two main types:
+  * topographic - employs a near-infrared laser to chart terrestrial landscapes;
+  * bathymetric - utilises water-permeating green light to measure both underwater and riverbed elevations.
+  `r Citep(myBib, "noaaWhatLidar2023")`
+
+```{r echo=FALSE, out.width= "50%", fig.show='hold', fig.align= 'center', fig.cap= "Collecting LiDAR data from an aircraft (Source: Van Der Schriek and Beex, 2017)"}
+
+knitr::include_graphics('airplane.png')
+```
+---
+
