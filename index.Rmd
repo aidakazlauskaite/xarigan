@@ -79,9 +79,9 @@ knitr::include_graphics('airplane.png')
 # Applications 1: Terrain mapping
 
 * Lidar provides detailed topographic data by measuring surface elevation with high precision.
-* It enables the creation of digital elevation models (DEMs) and digital terrain models (DTMs) for terrain mapping.
+* It enables the creation of digital elevation models (DEMs) `r Citep(myBib, "sarithaDigitalElevationModel2021")` and digital terrain models (DTMs) for terrain mapping.
 * The technology penetrates vegetation, allowing for accurate mapping of terrain beneath forest canopies.
-* Lidar data aids in identifying landforms, analysing slope characteristics, and assessing terrain suitability for various purposes.
+* Lidar data aids in identifying landforms `r Citep(myBib, "gokgozLargeScaleLandform2015")`, analysing slope characteristics `r Citep(myBib, "yangApplicationValidationModel2018")`, and assessing terrain suitability for various purposes `r Citep(myBib, "millardUseGISHigh2013")`.
 
 ---
 
@@ -90,7 +90,7 @@ knitr::include_graphics('airplane.png')
 * Lidar captures detailed information about vegetation structure, including canopy height, density, and distribution.
 * It enables the creation of vegetation maps and biomass estimation, crucial for ecological studies and forest management.
 * The technology facilitates monitoring of forest health, detecting changes in vegetation cover, and assessing habitat quality.
-* Lidar data aids in identifying tree species, analyzing canopy gaps, and assessing the impact of disturbances on vegetation.
+* Lidar data aids in identifying tree species `r Citep(myBib, "HangZhouShiFanDaXueYaoGanYuDiQiuKeXueYanJiuYuanFusedAirborneLiDAR2013")`, analysing canopy gaps `r Citep(myBib, "nowakHiddenGapsCanopy2022")`, and assessing the impact of disturbances on vegetation `r Citep(myBib, "novoAutomaticProcessingAerial2020")`.
 
 ---
 
@@ -99,7 +99,7 @@ knitr::include_graphics('airplane.png')
 * Lidar supports urban planning by providing precise 3D mapping of urban environments, including buildings, roads, and infrastructure.
 * It enables the creation of detailed digital surface models (DSMs) and digital terrain models (DTMs) for urban landscape analysis.
 * The technology aids in land use classification, transportation network planning, and infrastructure maintenance.
-* Lidar data facilitates flood risk assessment, urban growth monitoring, and green space planning in urban areas.
+* Lidar data facilitates flood risk assessment `r Citep(myBib, "bodoqueDevelopingReliableUrban2023")`, urban growth monitoring `r Citep(myBib, "hameedUrbanizationDetectionUsing2022")`, and green space planning in urban areas `r Citep(myBib, "pysznyLiDARBasedUrban2020")`.
 
 ---
 
@@ -108,7 +108,7 @@ knitr::include_graphics('airplane.png')
 * Lidar aids archaeological surveys by providing detailed topographic data of landscapes, uncovering hidden features.
 * It allows for the detection of archaeological sites, ancient structures, and artifacts that may be obscured by vegetation or terrain.
 * The technology accelerates the mapping process, covering large areas efficiently and identifying potential excavation sites.
-* Lidar assists in reconstructing ancient landscapes, understanding settlement patterns, and planning targeted excavations for further study.
+* Lidar assists in reconstructing ancient landscapes `r Citep(myBib, "partonUsingLidarBayesian2022")`, understanding settlement patterns `r Citep(myBib, "fisherIdentifyingAncientSettlement2016")`, and planning targeted excavations for further study.
 
 ---
 
