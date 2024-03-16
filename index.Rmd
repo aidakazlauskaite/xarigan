@@ -113,3 +113,16 @@ knitr::include_graphics('airplane.png')
 ---
 
 # Reflections
+
+
+---
+# References
+<small>
+<small>
+<small>
+```{r results='asis', echo = FALSE}
+PrintBibliography(myBib)
+```
+</small>
+</small>
+</small>
