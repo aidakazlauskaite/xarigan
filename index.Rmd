@@ -114,6 +114,11 @@ knitr::include_graphics('airplane.png')
 
 # Reflections
 
+- It was fascinating to learn just in how many fields and how widely across each one of them LiDAR collected data can be applied. 
+- I found it so interesting how LiDAR can create highly detailed 3D maps of terrain and objects, even through vegetation!
+- Goggling LiDAR and constantly seeing results from *Amazon* website was an interesting way of learning just how accessible, compact, and affordable this type of technology has become to the general public since it was first used in the 1960s.
+- The accuracy of LiDAR measurements is so precise that it can detect changes in ground elevation as small as a few centimeters! If that is not impressive, I don't know what is.
+- As someone who spent their childhood obsessing about the (Seven) Wonders of the World, learning that LiDAR technology has been used to discover lost cities and ancient civilisations, such as the Maya ruins in Central America and Angkor Wat in Cambodia, that was like coming full circle.
 
 ---
 # References
